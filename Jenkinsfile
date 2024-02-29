@@ -13,13 +13,6 @@ pipeline{
             }
         }
 
-        stage("echo"){
-            steps{
-                sh "echo 'hello jenkins' > ~/jenkins-pipelines/file.txt"
-            }
-        }
-    
-    
     
     }
 
