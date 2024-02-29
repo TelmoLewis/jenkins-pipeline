@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("make directory"){
+        stage("clean up"){
             steps{
-                sh "mkdir ~/jenkins-pipelines || true"
+                sh "bash cleanup.sh"
             }
         }
 
