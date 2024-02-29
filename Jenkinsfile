@@ -7,7 +7,7 @@ pipeline{
             //}
         //}
 
-        stage("build images"){
+        stage("docker build"){
             steps{
                 sh "bash build.sh"
             }
